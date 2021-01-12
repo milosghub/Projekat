@@ -13,6 +13,7 @@ namespace PresentationLayer
 {
     static class Program
     {
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -32,7 +33,7 @@ namespace PresentationLayer
                // var formSignUp= serviceProvider.GetRequiredService<FormSignUp>();
                // Application.Run(formSignUp);
             }
-
+           
         }
 
         private static void ConfigureServices(ServiceCollection services)
