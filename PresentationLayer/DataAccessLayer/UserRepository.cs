@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Shared.Interfaces.Repository;
+using Shared.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         public List<User> GetUsers()
         {

@@ -65,9 +65,6 @@ namespace PresentationLayer
         {
             //ElectricalEnergy
             int randomEnergy = RandomNumber(0, 3000);
-
-            //textBoxSpent.Text.Replace(random, txtTo.Text).ToString();
-
             textBoxSpentEnergy.Text = randomEnergy.ToString();
             textBoxEnergyBill.Text = EnergyBill().ToString();
 
@@ -82,11 +79,7 @@ namespace PresentationLayer
 
             //Internet
             int randomInternet = RandomNumber(1000, 2000);
-            textBoxInternetBill.Text = randomInternet.ToString();
-
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            textBoxInternetBill.Text = randomInternet.ToString(); 
         }
 
         private void buttonPayEnergy_Click(object sender, EventArgs e)
@@ -113,7 +106,6 @@ namespace PresentationLayer
             else
             textBoxBalance.Text = newBalance.ToString();
             buttonPayWater.Enabled = false;
-
         }
 
         private void buttonPayInternet_Click(object sender, EventArgs e)
@@ -127,7 +119,6 @@ namespace PresentationLayer
             else
             textBoxBalance.Text = newBalance.ToString();
             buttonPayInternet.Enabled = false;
-
         }
 
         private void buttonHelpBill_Click(object sender, EventArgs e)
@@ -135,41 +126,10 @@ namespace PresentationLayer
             MessageBox.Show("Welcome! You can only one time pay one bill! If you don't have enough money, we're sorry!", "Information");
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void buttonSignOut_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Bill bill = new Bill();
+            this.Close();
         }
-        private void buttonPayEnergy_MouseEnter(object sender, EventArgs e)
-        {
-            buttonPayEnergy.BackColor = Color.Blue;
-            buttonPayEnergy.ForeColor = Color.White;
-
-        }
-        private void buttonPayEnergy_MouseLeave(object sender, EventArgs e)
-        {
-            buttonPayEnergy.BackColor = Color.Lime;
-        }
-        private void buttonPayInternet_MouseEnter(object sender, EventArgs e)
-        {
-            buttonPayInternet.BackColor = Color.Blue;
-            buttonPayInternet.ForeColor = Color.White;
-
-        }
-        private void buttonPayInternet_MouseLeave(object sender, EventArgs e)
-        {
-            buttonPayInternet.BackColor = Color.Lime;
-        }
-        private void buttonPayWater_MouseEnter(object sender, EventArgs e)
-        {
-            buttonPayWater.BackColor = Color.Blue;
-            buttonPayWater.ForeColor = Color.White;
-
-        }
-        private void buttonPayWater_MouseLeave(object sender, EventArgs e)
-        {
-            buttonPayWater.BackColor = Color.Lime;
-        }
-
-     
     }
 }

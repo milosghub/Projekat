@@ -13,7 +13,6 @@ namespace PresentationLayer
 {
     static class Program
     {
-        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -30,10 +29,10 @@ namespace PresentationLayer
             {
                 var home = serviceProvider.GetRequiredService<Home>();
                 Application.Run(home);
-               // var formSignUp= serviceProvider.GetRequiredService<FormSignUp>();
-               // Application.Run(formSignUp);
+             //   var formSignUp= serviceProvider.GetRequiredService<FormSignUp>();
+              //  Application.Run(formSignUp);
             }
-           
+
         }
 
         private static void ConfigureServices(ServiceCollection services)
@@ -41,7 +40,7 @@ namespace PresentationLayer
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserBusiness, UserBusiness>();
             services.AddScoped<Home>();
-            //services.AddScoped<FormSignUp>();
+            services.AddScoped<FormSignUp>();
 
         }
     }

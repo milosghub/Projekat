@@ -57,8 +57,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonPayEnergy = new System.Windows.Forms.Button();
             this.buttonHelpBill = new System.Windows.Forms.Button();
-            this.buttonExit = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
+            this.buttonSignOut = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -79,20 +78,18 @@
             // 
             // textBoxBalance
             // 
-            this.textBoxBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBalance.Location = new System.Drawing.Point(90, 56);
+            this.textBoxBalance.Location = new System.Drawing.Point(93, 57);
             this.textBoxBalance.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBalance.Name = "textBoxBalance";
-            this.textBoxBalance.Size = new System.Drawing.Size(105, 22);
+            this.textBoxBalance.Size = new System.Drawing.Size(105, 20);
             this.textBoxBalance.TabIndex = 7;
-            this.textBoxBalance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(202, 57);
+            this.label15.Location = new System.Drawing.Point(202, 62);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(37, 16);
@@ -107,8 +104,7 @@
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.textBoxBalance);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Location = new System.Drawing.Point(686, 577);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel4.Location = new System.Drawing.Point(282, 302);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(294, 106);
             this.panel4.TabIndex = 28;
@@ -123,35 +119,31 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.buttonPayInternet);
             this.panel3.Controls.Add(this.label14);
-            this.panel3.Location = new System.Drawing.Point(686, 269);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel3.Location = new System.Drawing.Point(296, 28);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(294, 164);
+            this.panel3.Size = new System.Drawing.Size(271, 164);
             this.panel3.TabIndex = 27;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(103, 12);
+            this.label8.Location = new System.Drawing.Point(16, 11);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 22);
+            this.label8.Size = new System.Drawing.Size(59, 16);
             this.label8.TabIndex = 14;
             this.label8.Text = "Internet";
             // 
             // textBoxInternetBill
             // 
-            this.textBoxInternetBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxInternetBill.Location = new System.Drawing.Point(119, 61);
+            this.textBoxInternetBill.Location = new System.Drawing.Point(119, 56);
             this.textBoxInternetBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxInternetBill.Name = "textBoxInternetBill";
-            this.textBoxInternetBill.ReadOnly = true;
-            this.textBoxInternetBill.Size = new System.Drawing.Size(76, 22);
+            this.textBoxInternetBill.Size = new System.Drawing.Size(76, 20);
             this.textBoxInternetBill.TabIndex = 16;
-            this.textBoxInternetBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
             // 
@@ -159,7 +151,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(32, 64);
+            this.label9.Location = new System.Drawing.Point(49, 57);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(72, 16);
@@ -169,18 +161,15 @@
             // buttonPayInternet
             // 
             this.buttonPayInternet.BackColor = System.Drawing.Color.Chartreuse;
-            this.buttonPayInternet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonPayInternet.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPayInternet.Location = new System.Drawing.Point(118, 111);
+            this.buttonPayInternet.Location = new System.Drawing.Point(132, 109);
             this.buttonPayInternet.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPayInternet.Name = "buttonPayInternet";
-            this.buttonPayInternet.Size = new System.Drawing.Size(64, 30);
+            this.buttonPayInternet.Size = new System.Drawing.Size(63, 30);
             this.buttonPayInternet.TabIndex = 17;
             this.buttonPayInternet.Text = "Pay";
             this.buttonPayInternet.UseVisualStyleBackColor = false;
             this.buttonPayInternet.Click += new System.EventHandler(this.buttonPayInternet_Click);
-            this.buttonPayInternet.MouseEnter += new System.EventHandler(this.buttonPayInternet_MouseEnter);
-            this.buttonPayInternet.MouseLeave += new System.EventHandler(this.buttonPayInternet_MouseLeave);
             // 
             // label14
             // 
@@ -188,7 +177,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(199, 62);
+            this.label14.Location = new System.Drawing.Point(199, 57);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(33, 15);
@@ -208,8 +197,7 @@
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.buttonPayWater);
-            this.panel2.Location = new System.Drawing.Point(1033, 243);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel2.Location = new System.Drawing.Point(591, 28);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(258, 205);
             this.panel2.TabIndex = 26;
@@ -218,25 +206,22 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(97, 13);
+            this.label5.Location = new System.Drawing.Point(11, 11);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 22);
+            this.label5.Size = new System.Drawing.Size(49, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "Water";
             // 
             // textBoxSpentWater
             // 
-            this.textBoxSpentWater.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSpentWater.Location = new System.Drawing.Point(116, 62);
+            this.textBoxSpentWater.Location = new System.Drawing.Point(117, 37);
             this.textBoxSpentWater.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSpentWater.Name = "textBoxSpentWater";
-            this.textBoxSpentWater.ReadOnly = true;
-            this.textBoxSpentWater.Size = new System.Drawing.Size(76, 22);
+            this.textBoxSpentWater.Size = new System.Drawing.Size(76, 20);
             this.textBoxSpentWater.TabIndex = 10;
-            this.textBoxSpentWater.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
@@ -244,7 +229,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(197, 66);
+            this.label11.Location = new System.Drawing.Point(197, 42);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(26, 16);
@@ -257,7 +242,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(47, 66);
+            this.label6.Location = new System.Drawing.Point(47, 38);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 16);
@@ -266,14 +251,11 @@
             // 
             // textBoxWaterBill
             // 
-            this.textBoxWaterBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxWaterBill.Location = new System.Drawing.Point(116, 97);
+            this.textBoxWaterBill.Location = new System.Drawing.Point(117, 97);
             this.textBoxWaterBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWaterBill.Name = "textBoxWaterBill";
-            this.textBoxWaterBill.ReadOnly = true;
-            this.textBoxWaterBill.Size = new System.Drawing.Size(76, 22);
+            this.textBoxWaterBill.Size = new System.Drawing.Size(76, 20);
             this.textBoxWaterBill.TabIndex = 12;
-            this.textBoxWaterBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label12
             // 
@@ -281,7 +263,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(197, 101);
+            this.label12.Location = new System.Drawing.Point(197, 100);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(37, 16);
@@ -294,7 +276,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(20, 101);
+            this.label7.Location = new System.Drawing.Point(47, 100);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 16);
@@ -304,10 +286,9 @@
             // buttonPayWater
             // 
             this.buttonPayWater.BackColor = System.Drawing.Color.Chartreuse;
-            this.buttonPayWater.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonPayWater.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPayWater.ForeColor = System.Drawing.Color.Black;
-            this.buttonPayWater.Location = new System.Drawing.Point(101, 155);
+            this.buttonPayWater.Location = new System.Drawing.Point(127, 155);
             this.buttonPayWater.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPayWater.Name = "buttonPayWater";
             this.buttonPayWater.Size = new System.Drawing.Size(66, 29);
@@ -315,8 +296,6 @@
             this.buttonPayWater.Text = "Pay";
             this.buttonPayWater.UseVisualStyleBackColor = false;
             this.buttonPayWater.Click += new System.EventHandler(this.buttonPayWater_Click);
-            this.buttonPayWater.MouseEnter += new System.EventHandler(this.buttonPayWater_MouseEnter);
-            this.buttonPayWater.MouseLeave += new System.EventHandler(this.buttonPayWater_MouseLeave);
             // 
             // panel1
             // 
@@ -331,8 +310,7 @@
             this.panel1.Controls.Add(this.textBoxEnergyBill);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.buttonPayEnergy);
-            this.panel1.Location = new System.Drawing.Point(366, 243);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel1.Location = new System.Drawing.Point(5, 28);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(267, 205);
             this.panel1.TabIndex = 25;
@@ -341,25 +319,22 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(40, 11);
+            this.label1.Location = new System.Drawing.Point(6, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 22);
+            this.label1.Size = new System.Drawing.Size(126, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Electrical Energy";
             // 
             // textBoxSpentEnergy
             // 
-            this.textBoxSpentEnergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSpentEnergy.Location = new System.Drawing.Point(108, 66);
+            this.textBoxSpentEnergy.Location = new System.Drawing.Point(108, 37);
             this.textBoxSpentEnergy.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSpentEnergy.Name = "textBoxSpentEnergy";
-            this.textBoxSpentEnergy.ReadOnly = true;
-            this.textBoxSpentEnergy.Size = new System.Drawing.Size(76, 22);
+            this.textBoxSpentEnergy.Size = new System.Drawing.Size(76, 20);
             this.textBoxSpentEnergy.TabIndex = 2;
-            this.textBoxSpentEnergy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label10
             // 
@@ -367,7 +342,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(188, 69);
+            this.label10.Location = new System.Drawing.Point(188, 44);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(39, 16);
@@ -380,7 +355,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(41, 67);
+            this.label2.Location = new System.Drawing.Point(41, 44);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 16);
@@ -393,7 +368,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(188, 106);
+            this.label13.Location = new System.Drawing.Point(188, 97);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 16);
@@ -402,14 +377,11 @@
             // 
             // textBoxEnergyBill
             // 
-            this.textBoxEnergyBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEnergyBill.Location = new System.Drawing.Point(108, 103);
+            this.textBoxEnergyBill.Location = new System.Drawing.Point(108, 90);
             this.textBoxEnergyBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEnergyBill.Name = "textBoxEnergyBill";
-            this.textBoxEnergyBill.ReadOnly = true;
-            this.textBoxEnergyBill.Size = new System.Drawing.Size(76, 22);
+            this.textBoxEnergyBill.Size = new System.Drawing.Size(76, 20);
             this.textBoxEnergyBill.TabIndex = 4;
-            this.textBoxEnergyBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -417,7 +389,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(16, 107);
+            this.label3.Location = new System.Drawing.Point(41, 97);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 16);
@@ -427,9 +399,8 @@
             // buttonPayEnergy
             // 
             this.buttonPayEnergy.BackColor = System.Drawing.Color.Chartreuse;
-            this.buttonPayEnergy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonPayEnergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPayEnergy.Location = new System.Drawing.Point(94, 155);
+            this.buttonPayEnergy.Location = new System.Drawing.Point(128, 155);
             this.buttonPayEnergy.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPayEnergy.Name = "buttonPayEnergy";
             this.buttonPayEnergy.Size = new System.Drawing.Size(56, 29);
@@ -437,55 +408,36 @@
             this.buttonPayEnergy.Text = "Pay";
             this.buttonPayEnergy.UseVisualStyleBackColor = false;
             this.buttonPayEnergy.Click += new System.EventHandler(this.buttonPayEnergy_Click);
-            this.buttonPayEnergy.MouseEnter += new System.EventHandler(this.buttonPayEnergy_MouseEnter);
-            this.buttonPayEnergy.MouseLeave += new System.EventHandler(this.buttonPayEnergy_MouseLeave);
             // 
             // buttonHelpBill
             // 
-            this.buttonHelpBill.BackColor = System.Drawing.Color.Crimson;
-            this.buttonHelpBill.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonHelpBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonHelpBill.Location = new System.Drawing.Point(1506, 827);
-            this.buttonHelpBill.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonHelpBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHelpBill.Location = new System.Drawing.Point(391, 248);
             this.buttonHelpBill.Name = "buttonHelpBill";
-            this.buttonHelpBill.Size = new System.Drawing.Size(68, 32);
+            this.buttonHelpBill.Size = new System.Drawing.Size(75, 23);
             this.buttonHelpBill.TabIndex = 29;
             this.buttonHelpBill.Text = "Help";
-            this.buttonHelpBill.UseVisualStyleBackColor = false;
+            this.buttonHelpBill.UseVisualStyleBackColor = true;
             this.buttonHelpBill.Click += new System.EventHandler(this.buttonHelpBill_Click);
             // 
-            // buttonExit
+            // buttonSignOut
             // 
-            this.buttonExit.BackgroundImage = global::PresentationLayer.Properties.Resources.Exit;
-            this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonExit.Location = new System.Drawing.Point(1560, 11);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(32, 30);
-            this.buttonExit.TabIndex = 30;
-            this.buttonExit.UseVisualStyleBackColor = true;
-            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(584, 58);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(526, 76);
-            this.label16.TabIndex = 31;
-            this.label16.Text = "BILL PAYMENT";
+            this.buttonSignOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSignOut.Location = new System.Drawing.Point(391, 440);
+            this.buttonSignOut.Name = "buttonSignOut";
+            this.buttonSignOut.Size = new System.Drawing.Size(75, 23);
+            this.buttonSignOut.TabIndex = 30;
+            this.buttonSignOut.Text = "Sign out";
+            this.buttonSignOut.UseVisualStyleBackColor = true;
+            this.buttonSignOut.Click += new System.EventHandler(this.buttonSignOut_Click);
             // 
             // Bill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1604, 881);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.buttonExit);
+            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.ClientSize = new System.Drawing.Size(856, 490);
+            this.Controls.Add(this.buttonSignOut);
             this.Controls.Add(this.buttonHelpBill);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -504,7 +456,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -539,7 +490,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button buttonHelpBill;
-        private System.Windows.Forms.Button buttonExit;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button buttonSignOut;
     }
 }
