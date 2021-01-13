@@ -92,7 +92,9 @@ namespace PresentationLayer
                 MessageBox.Show("You don't have enough money!!!");
             else
             textBoxBalance.Text = newBalance.ToString();
+
             buttonPayEnergy.Enabled = false;
+            MessageBox.Show("Pay was successful!");
         }
 
         private void buttonPayWater_Click(object sender, EventArgs e)
@@ -106,6 +108,8 @@ namespace PresentationLayer
             else
             textBoxBalance.Text = newBalance.ToString();
             buttonPayWater.Enabled = false;
+            MessageBox.Show("Pay was successful!");
+
         }
 
         private void buttonPayInternet_Click(object sender, EventArgs e)
@@ -119,6 +123,8 @@ namespace PresentationLayer
             else
             textBoxBalance.Text = newBalance.ToString();
             buttonPayInternet.Enabled = false;
+            MessageBox.Show("Pay was successful!");
+
         }
 
         private void buttonHelpBill_Click(object sender, EventArgs e)

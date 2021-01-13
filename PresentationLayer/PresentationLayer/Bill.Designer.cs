@@ -78,6 +78,7 @@
             // 
             // textBoxBalance
             // 
+            this.textBoxBalance.Enabled = false;
             this.textBoxBalance.Location = new System.Drawing.Point(93, 57);
             this.textBoxBalance.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBalance.Name = "textBoxBalance";
@@ -139,6 +140,7 @@
             // 
             // textBoxInternetBill
             // 
+            this.textBoxInternetBill.Enabled = false;
             this.textBoxInternetBill.Location = new System.Drawing.Point(119, 56);
             this.textBoxInternetBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxInternetBill.Name = "textBoxInternetBill";
@@ -217,6 +219,7 @@
             // 
             // textBoxSpentWater
             // 
+            this.textBoxSpentWater.Enabled = false;
             this.textBoxSpentWater.Location = new System.Drawing.Point(117, 37);
             this.textBoxSpentWater.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSpentWater.Name = "textBoxSpentWater";
@@ -251,6 +254,7 @@
             // 
             // textBoxWaterBill
             // 
+            this.textBoxWaterBill.Enabled = false;
             this.textBoxWaterBill.Location = new System.Drawing.Point(117, 97);
             this.textBoxWaterBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWaterBill.Name = "textBoxWaterBill";
@@ -330,6 +334,7 @@
             // 
             // textBoxSpentEnergy
             // 
+            this.textBoxSpentEnergy.Enabled = false;
             this.textBoxSpentEnergy.Location = new System.Drawing.Point(108, 37);
             this.textBoxSpentEnergy.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSpentEnergy.Name = "textBoxSpentEnergy";
@@ -377,6 +382,7 @@
             // 
             // textBoxEnergyBill
             // 
+            this.textBoxEnergyBill.Enabled = false;
             this.textBoxEnergyBill.Location = new System.Drawing.Point(108, 90);
             this.textBoxEnergyBill.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEnergyBill.Name = "textBoxEnergyBill";

@@ -22,8 +22,22 @@ namespace PresentationLayer
             this.userBusiness = _userBusiness ;
             InitializeComponent();
             textBoxPass.PasswordChar = '*';
+            buttonLogIn.MouseEnter += OnMouseEnterButtonLogIn;
+            buttonLogIn.MouseLeave += OnMouseLeaveButtonLogIn;
+            buttonSignUp.MouseEnter += OnMouseEnterButtonSignUp;
+            buttonSignUp.MouseLeave += OnMouseLeaveButtonSignUp;
+
         }
-        
+
+        private void OnMouseEnterButtonSignUp(object sender, EventArgs e)
+        {
+            buttonSignUp.BackColor = Color.White; // or Color.Red or whatever you want, SystemColors.ButtonHighlight
+        }
+        private void OnMouseLeaveButtonSignUp(object sender, EventArgs e)
+        {
+            buttonSignUp.BackColor = Color.DarkTurquoise;
+        }
+
         private void buttonSignUp_Click(object sender, EventArgs e)
         {
             FormSignUp form = new FormSignUp(userBusiness );
@@ -37,7 +51,15 @@ namespace PresentationLayer
             this.WindowState = FormWindowState.Maximized;*/
         }
 
-  
+        private void OnMouseEnterButtonLogIn(object sender, EventArgs e)
+        {
+            buttonLogIn.BackColor = Color.Yellow; // or Color.Red or whatever you want, SystemColors.ButtonHighlight
+        }
+        private void OnMouseLeaveButtonLogIn(object sender, EventArgs e)
+        {
+            buttonLogIn.BackColor = Color.Lime;
+        }
+
         private void buttonLogIn_Click(object sender, EventArgs e)
         {
             string username = textBoxUsername.Text;

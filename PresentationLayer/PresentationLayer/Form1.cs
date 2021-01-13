@@ -24,10 +24,23 @@ namespace PresentationLayer
         public FormSignUp(IUserBusiness _userBusiness)
         {
             this.userBusiness = _userBusiness;
+            
             InitializeComponent();
+
+            buttonSignUp.MouseEnter += OnMouseEnterButtonSignUp;
+            buttonSignUp.MouseLeave += OnMouseLeaveButtonSignUp;
 
         }
 
+
+        private void OnMouseEnterButtonSignUp(object sender, EventArgs e)
+        {
+            buttonSignUp.BackColor = Color.Green; // or Color.Red or whatever you want, SystemColors.ButtonHighlight
+        }
+        private void OnMouseLeaveButtonSignUp(object sender, EventArgs e)
+        {
+            buttonSignUp.BackColor = Color.DarkTurquoise;
+        }
         private void FormSignUp_Load(object sender, EventArgs e)
         {
             buttonSignUp.Enabled = false;
